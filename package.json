@@ -41,6 +41,7 @@
     "sass": "^1.52.3",
     "stripe": "^9.8.0",
     "sweetalert2": "^11.4.17",
+    "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
