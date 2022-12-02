@@ -7,6 +7,7 @@ import Presentation from "../Masterclass/computer.png";
 import Training from "../Masterclass/training.png";
 import Webinar from "../Masterclass/webinar.png";
 import Badge from "react-bootstrap/Badge";
+import ProgressBar from "react-bootstrap/ProgressBar";
 
 function BasicExample() {
   return (
@@ -85,8 +86,8 @@ function BasicExample() {
         <div className="video-responsive">
           <iframe
             align="center"
-            width="653"
-            height="480"
+            width="753"
+            height="580"
             src={`https://www.youtube.com/embed/8KkKuTCFvzI`}
             frameBorder="30"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -94,6 +95,12 @@ function BasicExample() {
             title="Embedded youtube"
           />
         </div>
+        <h4 style={{ textAlign: "center" }}>
+          {" "}
+          Now Playing : What keeps us happy and healthy as we go through life?
+        </h4>
+
+        <ProgressBar now={60} />
       </Container>
     </Container>
   );
