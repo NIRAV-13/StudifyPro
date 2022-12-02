@@ -91,7 +91,6 @@ const Recording = () => {
                         <Typography variant="h5" marginLeft={2} fontWeight="bold">
                             User Playlist
                         </Typography>
-
                     </ListItem>
                     <Divider variant='middle' textAlign="left" />
                     <ListItem>
