@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+.errors {
+    color: red;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+    color: #0d4fb0;
+    text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+    background: #ffffff !important;
+    height: 100vh !important;
+    width: 100% !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body.swal2-height-auto {
+    height: 100vh !important;
 }
 
-.App-link {
-  color: #61dafb;
+#root {
+    width: 100% !important;
+    height: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.lent {
+    color: blue;
+}
+
+.owed {
+    color: red;
+}
+
+.snaps {
+    color: green;
+}
+
+.form-switch {
+    zoom: 1.5;
+}
+
+.main {
+    overflow: auto;
+    width: 100%;
+}
+
+.paypal-link, .razorpay-link, .stripe-link {
+    cursor: pointer;
+}
+
+.white-anchor-tag a {
+    color: white;
+}
+
+.white-anchor-tag a:hover {
+    color: white;
+}
+.container-home-page {
+    position: relative;
+    top: 50%;
+    left: 51%;
+    right: 29%;
+
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
