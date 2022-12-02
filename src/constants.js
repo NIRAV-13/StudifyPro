@@ -34,7 +34,7 @@ export const routes = {
   },
   masterclass: {
     path: "/masterclass",
-    isAuthenticated: true,
+    isAuthenticated: false,
   },
 };
 

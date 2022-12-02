@@ -1,7 +1,3 @@
-/**
- * @author ${abhishekuppe}
- */
-
 import {
   Menu,
   MenuItem,
@@ -34,6 +30,11 @@ function SideBar() {
             </MenuItem>
             <MenuItem>
               <Link to={routes.passwordChanged.path}>Change Password</Link>
+            </MenuItem>
+          </SubMenu>
+          <SubMenu title={"Masterclass"}>
+            <MenuItem>
+              <Link to={routes.masterclass.path}>Live Class</Link>
             </MenuItem>
           </SubMenu>
         </Menu>
