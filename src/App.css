@@ -64,3 +64,37 @@ body.swal2-height-auto {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
+.photo {
+    margin-top: 25px;
+    height: 225px;
+    width: 225px;
+    width: 60%;
+    margin: auto;
+    display: block;
+  }
+  .video-responsive {
+    overflow: hidden;
+    padding-bottom: 57%;
+    position: relative;
+    height: 0;
+    margin: auto;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .video-responsive iframe {
+    
+    left: 20;
+    top: 0;
+
+    position: absolute;
+    margin: auto;
+    display:block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  

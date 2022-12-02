@@ -54,58 +54,60 @@ function ForgotPassword() {
   };
 
   return (
-    <div className="row g-0 auth-wrapper">
-      <div className="col-12 col-md-7 col-lg-6 auth-main-col text-center">
-        <div className="d-flex flex-column align-content-end">
-          <div className="auth-body mx-auto">
-            <p>Forgot Password</p>
-            <div className="auth-form-container text-start">
-              <form
-                className="auth-form"
-                method="POST"
-                onSubmit={forgotPassword}
-                autoComplete={"off"}
-              >
-                <div className="email mb-3">
-                  <input
-                    type="email"
-                    className={`form-control ${
-                      validate.validate && validate.validate.email
-                        ? "is-invalid "
-                        : ""
-                    }`}
-                    id="email"
-                    name="email"
-                    value={email}
-                    placeholder="Email"
-                    onChange={(e) => setEmail(e.target.value)}
-                  />
+    <div class="col-md-8 offset-md-2">
+      <div className="row g-0 auth-wrapper">
+        <div className="col-12 col-md-7 col-lg-6 auth-main-col text-center">
+          <div className="d-flex flex-column align-content-end">
+            <div className="auth-body mx-auto">
+              <p>Forgot Password</p>
+              <div className="auth-form-container text-start">
+                <form
+                  className="auth-form"
+                  method="POST"
+                  onSubmit={forgotPassword}
+                  autoComplete={"off"}
+                >
+                  <div className="email mb-3">
+                    <input
+                      type="email"
+                      className={`form-control ${
+                        validate.validate && validate.validate.email
+                          ? "is-invalid "
+                          : ""
+                      }`}
+                      id="email"
+                      name="email"
+                      value={email}
+                      placeholder="Email"
+                      onChange={(e) => setEmail(e.target.value)}
+                    />
 
-                  <div
-                    className={`invalid-feedback text-start ${
-                      validate.validate && validate.validate.email
-                        ? "d-block"
-                        : "d-none"
-                    }`}
-                  >
-                    {validate.validate && validate.validate.email
-                      ? validate.validate.email[0]
-                      : ""}
+                    <div
+                      className={`invalid-feedback text-start ${
+                        validate.validate && validate.validate.email
+                          ? "d-block"
+                          : "d-none"
+                      }`}
+                    >
+                      {validate.validate && validate.validate.email
+                        ? validate.validate.email[0]
+                        : ""}
+                    </div>
                   </div>
-                </div>
 
-                <div className="text-center">
                   <div className="text-center">
-                    <Button as="input" type="submit" value="Submit" />{" "}
+                    <div className="text-center">
+                      <Button as="input" type="submit" value="Submit" />{" "}
+                    </div>
                   </div>
-                </div>
-              </form>
+                </form>
 
-              <hr />
-              <div className="auth-option text-center pt-2">
-                <Link className="text-link" to="/login">
-                  Back to Login
-                </Link>
+                <hr />
+                <div className="auth-option text-center pt-2">
+                  <Link className="text-link" to="/login">
+                    Back to Login
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

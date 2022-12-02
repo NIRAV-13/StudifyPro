@@ -12,6 +12,7 @@ import { PasswordChanged } from "../UserManagement/ChangePassword";
 
 import HomePage from "../HomePage";
 import { PrivateRoute } from "../../components/PrivateRoute.js";
+import Masterclass from "../Masterclass";
 
 function Routing() {
   return (
@@ -47,6 +48,9 @@ function Routing() {
             <Signup />
           </Route>
 
+          <Route exact path={routes.masterclass.path}>
+            <Masterclass />
+          </Route>
           <Route exact path={routes.forgotPassword.path}>
             <Layout>
               <ForgotPassword />
