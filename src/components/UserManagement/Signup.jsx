@@ -8,12 +8,6 @@ import Container from "react-bootstrap/Container";
 import Swal from "sweetalert2";
 import { useAuth } from "../../contexts/Auth.js";
 
-/**
- * Author:    Ayush Verma
- * Created:   15.07.2022
- *
- * (c) Copyright by Group 24.
- **/
 export function Signup() {
   const emailRef = useRef();
   const passwordRef = useRef();

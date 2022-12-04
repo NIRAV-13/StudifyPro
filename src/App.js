@@ -5,7 +5,6 @@ import "react-toastify/dist/ReactToastify.css";
 import {useEffect, useState} from "react";
 import axios from "axios";
 import {Provider} from "react-redux";
-import {store} from "./redux/store";
 
 function App() {
 
@@ -44,14 +43,12 @@ function App() {
 
     return (
         <div className="h-100 d-flex w-100">
-            <Provider store={store}>
                 {!loading ?
                     <>
                         <Routing/>
                         <ToastContainer/>
                     </>
                     : <div>Loading...</div>}
-            </Provider>
         </div>
     );
 }

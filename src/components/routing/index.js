@@ -13,6 +13,10 @@ import { PasswordChanged } from "../UserManagement/ChangePassword";
 import HomePage from "../HomePage";
 import { PrivateRoute } from "../../components/PrivateRoute.js";
 import Masterclass from "../Masterclass";
+import Recording from "../Recording";
+import ChatRoom from "../ChatRoom";
+import Quiz from "../Quiz";
+import { QuizProvider } from "../../context/quiz";
 
 function Routing() {
   return (
@@ -54,6 +58,23 @@ function Routing() {
           <Route exact path={routes.forgotPassword.path}>
             <Layout>
               <ForgotPassword />
+            </Layout>
+          </Route>
+          <Route exact path={routes.recorded.path}>
+            <Layout>
+              <Recording />
+            </Layout>
+          </Route>
+          <Route exact path={routes.chat.path}>
+            <Layout>
+              <ChatRoom />
+            </Layout>
+          </Route>
+          <Route exact path={routes.quiz.path}>
+            <Layout>
+              <QuizProvider>
+              <Quiz />
+              </QuizProvider>
             </Layout>
           </Route>
 

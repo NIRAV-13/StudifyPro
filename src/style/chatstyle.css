@@ -1,7 +1,4 @@
-body {
-    padding: 2em;
-}
-.container {
+.container2 {
     background-color: #FFF;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     display: flex;
@@ -134,16 +131,50 @@ body {
     background-color: #e3effd !important;
 }
 
-.chat .footer-chat .send {
+.chat .footer-chat {
     color: #fff;
-    background-color: #4f6ebd;
-    right: 50px;
-    padding: 12px 12px 12px 12px;
     border-radius: 50px;
     font-size: 14pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.send {
+    background-color: #4f6ebd;
+    border-radius: 30px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.message-container {
+    width: 70%;
+    height: 50px;
+    border: 2px solid #4f6ebd;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .write-message {
-    width: 60%;
-    height: 50px;
+    width: 90%;
+    padding: 0px 10px;
+    border: none;
+    outline: 0;
+    font-size: 15px;
+}
+
+.draw-btn {
+    background-color: #4f6ebd;
+    width: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
 }

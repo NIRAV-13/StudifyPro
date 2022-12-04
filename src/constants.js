@@ -35,6 +35,15 @@ export const routes = {
   masterclass: {
     path: "/masterclass",
     isAuthenticated: false,
+  }, recorded: {
+    path: "/recorded",
+    isAuthenticated: false,
+  }, chat: {
+    path: "/chat",
+    isAuthenticated: false,
+  },quiz: {
+    path: "/quiz",
+    isAuthenticated: false,
   },
 };
 
@@ -50,7 +59,7 @@ export const isSuccessfulResponse = (response) => {
   return response?.success;
 };
 
-export const showPopup = (type, title, msg, callback = () => {}) => {
+export const showPopup = (type, title, msg, callback = () => { }) => {
   Swal.fire(title, msg, type).then(() => {
     callback();
   });

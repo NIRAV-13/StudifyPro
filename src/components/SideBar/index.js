@@ -37,6 +37,21 @@ function SideBar() {
               <Link to={routes.masterclass.path}>Live Class</Link>
             </MenuItem>
           </SubMenu>
+          <SubMenu title={"Recorded Lectures"}>
+            <MenuItem>
+              <Link to={routes.recorded.path}>Recorded Class</Link>
+            </MenuItem>
+          </SubMenu>
+          <SubMenu title={"Chat Room"}>
+            <MenuItem>
+              <Link to={routes.chat.path}>Chat Room</Link>
+            </MenuItem>
+          </SubMenu>
+          <SubMenu title={"Quiz"}>
+            <MenuItem>
+              <Link to={routes.quiz.path}>Quiz</Link>
+            </MenuItem>
+          </SubMenu>
         </Menu>
       </SidebarContent>
     </ProSidebar>
