@@ -1,0 +1,149 @@
+body {
+    padding: 2em;
+}
+.container {
+    background-color: #FFF;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+}
+
+.discussions {
+    width: 35%;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.20);
+    background-color: #87a3ec;
+}
+
+.discussions .discussion {
+    height: 90px;
+    background-color: #FAFAFA;
+    border-bottom: solid 1px #E0E0E0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.discussions .discussion .photo {
+    margin-left: 20px;
+    display: block;
+    width: 45px;
+    height: 45px;
+    background: #BBB;
+    border-radius: 50px;
+}
+
+.online {
+    width: 13px;
+    height: 13px;
+    background-color: #8BC34A;
+    border-radius: 13px;
+    border: 3px solid #EEE;
+}
+
+.desc-contact {
+    width: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.discussions .discussion .name {
+    margin: 0 0 0 20px;
+    color: #515151;
+}
+
+.discussions .discussion .message {
+    margin: 6px 0 0 20px;
+    font-size: 9pt;
+}
+
+.timer {
+    margin-left: 10%;
+    font-size: 10px;
+    padding: 3px 8px;
+    color: #BBB;
+    background-color: #FFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 15px;
+}
+
+.chat {
+    width: 65%;
+}
+
+.header-chat {
+    background-color: #FFF;
+    height: 90px;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.100);
+    display: flex;
+    align-items: center;
+}
+
+.chat .header-chat .name {
+    margin-left: 5%;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13pt;
+}
+
+.chat .messages-chat {
+    padding: 25px 35px;
+}
+
+.chat .messages-chat .message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.chat .messages-chat .message .photo {
+    width: 45px;
+    height: 45px;
+    background: #E6E7ED;
+    border-radius: 50px;
+}
+
+.chat .messages-chat .text {
+    margin: 0 35px;
+    background-color: #f6f6f6;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.text-only {
+    margin-left: 45px;
+}
+
+.time {
+    font-size: 10px;
+    color: lightgrey;
+}
+
+.response-time {
+    float: right;
+    margin-right: 40px !important;
+}
+
+.response {
+    float: right;
+    margin-right: 0px !important;
+    margin-left: auto;
+}
+
+.response .text {
+    background-color: #e3effd !important;
+}
+
+.chat .footer-chat .send {
+    color: #fff;
+    background-color: #4f6ebd;
+    right: 50px;
+    padding: 12px 12px 12px 12px;
+    border-radius: 50px;
+    font-size: 14pt;
+}
+
+.write-message {
+    width: 60%;
+    height: 50px;
+}
