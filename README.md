@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# StudifyPro : One stop peer-to-peer learning
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+URL : [https://studify-pro.netlify.app/](https://studify-pro.netlify.app/)
 
-## Available Scripts
+Students who are enrolled in high school and post-secondary school always have questions regarding the content they are learning. In school, you do not always have the opportunity to raise your hand and have your question answered. As well, teachers and professors do not always have the time to answer every email they receive in their inbox. These students pay large sums of money to attend school and if they do not have access to the correct resources, they may ultimately end up paying higher amounts to re-take courses or pay tutors to help them. That is where our software comes into play.Studify Pro is a software that is directed atstudents to help them further their education. Many students have doubts with their work and using our platform, they can solve their problems in an interactive manner. Studify Pro serves as a central hub for students to interact with alumni, professors, other students, as well as tutors tofurther their education. With the cost of schooling, many students cannot afford tutors or to fail a course. Using Studify Pro, they unlock access to a plethora of information tailored to their field of study.Having access to professors, students have a higher chance of getting questions answered and getting a chance to discuss class content with those teaching it.
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+Step 1: Git clone the project onto your local repository.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+`git clone https://git.cs.dal.ca/kvaghani/studifypro`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Step 2: Next step is to run the installation of the npm modules using the following command :
 
-### `npm test`
+`npm install`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Step 3: Once you see that modules are installed successfully, you can run the project using the following command.
 
-### `npm run build`
+`npm install`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Step 4: You can check and view the react UI.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Deployed Link
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The complete project is being deployed here :
 
-### `npm run eject`
+[https://studify-pro.netlify.app/](https://studify-pro.netlify.app/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## References
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- https://github.com/facebook/create-react-app/blob/main/README.md
+- http://netlify.com
+- https://mui.com/
+- https://react-bootstrap.github.io/
+- https://codepen.io/aybukeceylan/pen/pobbEYB
+- https://reactjs.org/docs/faq-structure.html
