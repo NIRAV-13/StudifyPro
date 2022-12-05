@@ -16,6 +16,7 @@ import Masterclass from "../Masterclass";
 import Recording from "../Recording";
 import ChatRoom from "../ChatRoom";
 import Quiz from "../Quiz";
+import Webinar from "../Webinar";
 import { QuizProvider } from "../../context/quiz";
 
 function Routing() {
@@ -75,6 +76,11 @@ function Routing() {
               <QuizProvider>
               <Quiz />
               </QuizProvider>
+            </Layout>
+          </Route>
+          <Route exact path={routes.webinar.path}>
+            <Layout>
+             <Webinar/>
             </Layout>
           </Route>
 

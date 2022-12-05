@@ -45,6 +45,10 @@ export const routes = {
     path: "/quiz",
     isAuthenticated: false,
   },
+    webinar: {
+    path: "/webinar",
+    isAuthenticated: false,
+  },
 };
 
 export const setLocalStorage = (key, value) => {

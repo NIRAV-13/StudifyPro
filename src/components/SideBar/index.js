@@ -52,6 +52,11 @@ function SideBar() {
               <Link to={routes.quiz.path}>Quiz</Link>
             </MenuItem>
           </SubMenu>
+          <SubMenu title={"Webinar"}>
+            <MenuItem>
+              <Link to={routes.webinar.path}>Webinar</Link>
+            </MenuItem>
+          </SubMenu>
         </Menu>
       </SidebarContent>
     </ProSidebar>
