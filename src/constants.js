@@ -49,6 +49,10 @@ export const routes = {
     path: "/webinar",
     isAuthenticated: false,
   },
+  videochat: {
+    path: "/videochat",
+    isAuthenticated: false,
+  },
 };
 
 export const setLocalStorage = (key, value) => {

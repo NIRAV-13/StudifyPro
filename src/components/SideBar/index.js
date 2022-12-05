@@ -57,6 +57,11 @@ function SideBar() {
               <Link to={routes.webinar.path}>Webinar</Link>
             </MenuItem>
           </SubMenu>
+          <SubMenu title={"One to One Session"}>
+            <MenuItem>
+              <Link to={routes.videochat.path}>One to One Session</Link>
+            </MenuItem>
+          </SubMenu>
         </Menu>
       </SidebarContent>
     </ProSidebar>

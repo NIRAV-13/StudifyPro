@@ -18,6 +18,7 @@ import ChatRoom from "../ChatRoom";
 import Quiz from "../Quiz";
 import Webinar from "../Webinar";
 import { QuizProvider } from "../../context/quiz";
+import VideoChat from "../VideoChat/VideoChat";
 
 function Routing() {
   return (
@@ -81,6 +82,11 @@ function Routing() {
           <Route exact path={routes.webinar.path}>
             <Layout>
              <Webinar/>
+            </Layout>
+          </Route>
+          <Route exact path={routes.videochat.path}>
+            <Layout>
+             <VideoChat/>
             </Layout>
           </Route>
 
