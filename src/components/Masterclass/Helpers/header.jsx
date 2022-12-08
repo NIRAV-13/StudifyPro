@@ -1,4 +1,6 @@
 import { Container, Card, Col, Row } from "react-bootstrap";
+
+// Header for the Masterclass page
 const Header = ({ head, description }) => {
   return (
     <Container>

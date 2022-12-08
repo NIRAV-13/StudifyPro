@@ -9,6 +9,8 @@ import Webinar from "../Masterclass/webinar.png";
 import Badge from "react-bootstrap/Badge";
 import ProgressBar from "react-bootstrap/ProgressBar";
 
+
+// Main layout for the Masterclass where all the classes are listed with rating and the updated date of the class
 function BasicExample() {
   return (
     <Container>

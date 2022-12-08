@@ -8,6 +8,9 @@ import {
 import { Link } from "react-router-dom";
 import { routes } from "../../constants";
 
+
+//Side navigation bar for navigation which includes 
+// Home page, User Management, Masterclass, Recored Lectures, Chat Room, Quiz, Webinar, One-to-one  session
 function SideBar() {
   return (
     <ProSidebar breakPoint="md">

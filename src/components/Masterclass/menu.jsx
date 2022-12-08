@@ -21,7 +21,7 @@ const Menu = () => {
           to="/"
           className="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none"
         >
-          Expense Tracker
+          StudifyPro
         </Link>
         <Nav>
           <div className="col-md-3 text-end">

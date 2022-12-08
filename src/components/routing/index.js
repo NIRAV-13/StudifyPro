@@ -20,18 +20,22 @@ import Webinar from "../Webinar";
 import { QuizProvider } from "../../context/quiz";
 import VideoChat from "../VideoChat/VideoChat";
 
+// Routing component for redirecting user to specific route 
 function Routing() {
   return (
     <BrowserRouter>
       <SideBar />
       <div className="main">
         <Switch>
+
+          {/* Home Route */}
           <Route exact path={routes.home.path}>
             {/* <Layout> */}
             <HomePage />
             {/* </Layout> */}
           </Route>
 
+          {/* Private Route for the webpages to prevent unautherized acess */}
           <PrivateRoute exact path={routes.notFound.path}>
             <Layout>
               <NotFound />

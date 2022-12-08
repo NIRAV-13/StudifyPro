@@ -1,6 +1,8 @@
 import {Link} from "react-router-dom";
 import {Container, Row, Col} from "react-bootstrap";
 
+// the route for for Page not found
+
 const NotFound = () => {
     return (
         <Container fluid="md" className="mt-5">

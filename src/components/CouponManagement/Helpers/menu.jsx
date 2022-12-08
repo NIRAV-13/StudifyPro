@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 import { Nav, Container } from "react-bootstrap";
 import { useHistory } from "react-router";
 import { useAuth } from "../../../contexts/Auth";
-import Swal from "sweetalert2";
+
+//This the component for the Web Menu where we will be providing option for signing out from the web
 
 const Menu = () => {
   const { user, signOut } = useAuth();

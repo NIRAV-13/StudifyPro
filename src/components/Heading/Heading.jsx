@@ -1,6 +1,6 @@
 import "../../css/heading.css";
 
-// Generic Heading UI component
+// Heading component for the navbar
 function Heading({children}) {
     return (
         <h2 className="title">{children}</h2>
