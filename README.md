@@ -129,17 +129,30 @@ We have added following design patters in the project :
 - Provider pattern been useful to maintain the global state for the complete react app.
 - We also tried to follow software development concepts by implementing some of the SOLID principles such as we tried to introduce the single responsibility principle by creating independent React Component for every small UI design. Apart from this, we also used Composite design patter to provide structural design for our front-end components. 
   
-## References
-
-- https://github.com/facebook/create-react-app/blob/main/README.md
-- http://netlify.com
-- https://mui.com/
-- https://react-bootstrap.github.io/
-- https://codepen.io/aybukeceylan/pen/pobbEYB
-- https://reactjs.org/docs/faq-structure.html
-
 ## Performance optimization techniques used in the project
 
 We have implemented the modules to optimize the cache on the browser. We have also made sure the minimum space comsumption when deadling with the Arrays or Data strctures in the react code.
 
 Memory leaking React is a common problem which reduces the performance of the webapp, so we tried to remove the memory leaks using some of the effective ways of React. For example, we used the React Hooks to check the unmounted components which are the results of updated components. So, using useRef and useEffect helps check if component in front-end is still exists and to replace it with new component. 
+
+### References 
+
+[1] “React – a JavaScript library for building user interfaces,” – A JavaScript library for building user interfaces. [Online]. Available: https://reactjs.org/. [Accessed: 07-Dec-2022].  
+
+[2] “React components - material UI,” React Components - Material UI. [Online]. Available: https://mui.com/material-ui/. [Accessed: 07-Dec-2022].  
+
+[3] N. B. F. 21, N. Babich, Words by Nick Babich Nick Babich is UX architect and writer. Nick has spent the last 10 years working in the software industry with a specialized focus on research and development. He counts advertising, W. by N. Babich, Nick Babich is UX architect and writer. Nick has spent the last 10 years working in the software industry with a specialized focus on research and development. He counts advertising, A. Santos, R. C. Woodmass, and A. XD, “The 15 rules every UX designer should know: Adobe XD ideas,” Ideas, 21-Feb-2020. [Online]. Available: https://xd.adobe.com/ideas/career-tips/15-rules-every-ux-designer-know/. [Accessed: 07-Dec-2022].  
+
+[4] Asana, “Manage your team's work, projects, & tasks online • asana,” Asana. [Online]. Available: https://asana.com/. [Accessed: 07-Dec-2022].  
+
+[5] “Design patterns,” Refactoring.Guru. [Online]. Available: https://refactoring.guru/design-patterns. [Accessed: 07-Dec-2022]. 
+
+[6] Facebook, “Create-react-app/readme.md at Main · facebook/create-react-app,” GitHub, 23-Dec-2021. [Online]. Available: https://github.com/facebook/create-react-app/blob/main/README.md. [Accessed: 07-Dec-2022].  
+
+[7] Develop & deploy the best web experiences in record time (no date) Netlify. Available at: http://netlify.com/ (Accessed: December 7, 2022).  
+
+[8] The React Component Library You always wanted (no date) MUI. Available at: https://mui.com/ (Accessed: December 7, 2022).  
+
+[9] Bootstrap (no date) react. Available at: https://react-bootstrap.github.io/ (Accessed: December 7, 2022).  
+
+[10] File structure (no date) React. Available at: https://reactjs.org/docs/faq-structure.html (Accessed: December 7, 2022).  
