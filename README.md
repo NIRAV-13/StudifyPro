@@ -95,7 +95,7 @@ We have included all seven tasks and their actual UI Implementation. We have bui
 - User can login using the credtials 
 - User also have option to get magic link which will help user to login into the platform using confermation link into the mail
 
-### After successfull login user will have option to use the platform feaute which are available in sidebar
+- After successfull login user will have option to use the platform feaute which are available in sidebar
 
 ### Masterclass 
 - User will be able to see all the available course provided by tutors, teacher and professor.
