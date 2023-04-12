@@ -34,7 +34,7 @@ Studify Pro is a software that is directed at students to help them further thei
 
 Step 1: Git clone the project onto your local repository.
 
-`git clone https://git.cs.dal.ca/kvaghani/studifypro`
+`git clone https://github.com/NIRAV-13/StudifyPro.git`
 
 Step 2: Next step is to run the installation of the npm modules using the following command :
 
